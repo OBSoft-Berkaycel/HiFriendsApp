@@ -23,8 +23,10 @@ class _MasterState extends State<Master> {
       appBar: AppBar(
         title: const Text("Home"),
       ),
-      body: const Center(
-        child: CustomSubTitleText(text: 'Hello World!'),
+      body: const SizedBox(
+        child: Center(
+          child: CustomSubTitleText(text: 'Hello World!'),
+        ),
       ),
       bottomNavigationBar: BottomNavyBar(
         selectedIndex: _selectedIndex,
